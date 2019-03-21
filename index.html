@@ -5,9 +5,47 @@
   <title>Registration 4-em</title>
 </head>
 <body>
+  <section>
+<div class="">
   <h1>Want to go to Mars?</h1>
   <br>
   <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+</div>
+
+<form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+ <fieldset>
+   <legend class="not-bold italic mega push-1-2">Personal details</legend>
+
+        <div class="grid">
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+        </div>
+
+        <div class="push unit xs-1 s-1 m-1 l-1-2">
+          <label for="age">Age</label>
+          <input id="age" type="age"required>
+        </div>
+
+        <div class="push unit xs-1 s-1 m-1 l-1-2">
+          <label for="email">Your email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email" required>
+        </div>
+
+        <div class="push unit xs-1 s-1 m-1 l-1-2">
+          <label for="fitness">Physical fitness</label>
+          <input type="hidden" name="_subject" value="Request to join the mission">
+          <select id="fitness" name="_fitness">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+
+        
+
+
+  </section>
 
 </body>
 </html>
