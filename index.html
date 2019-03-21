@@ -8,35 +8,37 @@
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/type.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 </head>
 <body>
-  <section>
-<div class="">
-  <h1>Want to go to Mars?</h1>
-  <br>
-  <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+
+  <section class="gutter-1-2 max-length">
+<div class="white island-1 max-length">
+  <h1 class="pad-t-2 normal">Want to go to Mars?</h1>
+  <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 </div>
 
 <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
- <fieldset>
+ <fieldset class="push-0">
    <legend class="not-bold italic mega push-1-2">Personal details</legend>
 
         <div class="grid">
+          <div class="unit xs-1 s-1 m-1 l-1-2 island-1-2">
           <label for="name">Name</label>
           <input id="name" name="name" required>
         </div>
 
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
+        <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
           <label for="age">Age</label>
-          <input id="age" type="age"required>
+          <input id="age" type="age">
         </div>
 
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
-          <label for="email">Your email</label>
-          <input id="email" type="email" placeholder="me@me.com" name="email" required>
+        <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="" name="email" required>
         </div>
 
-        <div class="push unit xs-1 s-1 m-1 l-1-2">
+        <div class="push unit xs-1 s-1 m-1 l-1-2 island-1-2">
           <label for="fitness">Physical fitness</label>
           <input type="hidden" name="_subject" value="Request to join the mission">
           <select id="fitness" name="_fitness">
@@ -47,7 +49,8 @@
           </select>
         </div>
 
-        <div class=" unit xs-1 s-1 m-1 l-1">
+
+        <div>
           <label for="address">Address</label>
           <textarea id="address" name="address" required></textarea>
         </div>
@@ -55,16 +58,17 @@
       </fieldset>
 
 <fieldset>
-  <legend class="not-bold italic mega push-1-2">Mission statement</legend>
+  <legend class="not-bold italic mega island-1">Mission statement</legend>
     <div>
       <label for="why">Why do you want to go to Mars?</label>
       <textarea id="why" name="why" required></textarea>
     </div>
 </fieldset>
 
-<div class="text center">
-  <button class="btn btn-dark mega" type="submit">Register for the trip!</button>
+<div class="text-center">
+  <button class="unit btn btn-dark mega bold" type="submit">Register for the trip!</button>
 </div>
+
 
 </form>
 </section>
