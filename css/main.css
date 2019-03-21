@@ -4,7 +4,7 @@ html {
 }
 
 section {
-background-color: #fff;
+  background-color: #fff;
 }
 
 h1 {
@@ -25,9 +25,10 @@ form {
   background-color: #fff;
 }
 
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 60em) {
 
-  body{
+  body {
     padding: 0;
   }
+
 }
